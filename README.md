@@ -3,7 +3,8 @@
 > Informações úteis sobre cada tipo do código http
 
 *Inspirados por awesome lists*
-
+[![Mentioned in Awesome](https://awesome.re/mentioned-badge.svg)](https://awesome.re)
+[![Mentioned in Awesome](https://awesome.re/mentioned-badge-flat.svg)](https://awesome.re)
 
 ## Lista de Códigos
 
