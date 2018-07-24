@@ -11,25 +11,25 @@
 A lista é separada por tipo.
 
 ### Informativo 1xx
-- [100](http://httpstatus.es/100) - **Continue** - Client should continue with request.
-- [101](http://httpstatus.es/101) - **Switching Protocols** - Server is switching protocols.
-- [102](http://httpstatus.es/102) - **Processing** - Server has received and is processing the request.
-- [103](http://httpstatus.es/102) - **Processing** - Server has received and is processing the request.
-- [122](http://httpstatus.es/102) - **Request-uri too long** - URI is longer than a maximum of 2083 characters.
+- [100](http://httpstatus.es/100) - **Continue** - O cliente deve continuar com a requisição.
+- [101](http://httpstatus.es/101) - **Switching Protocols** - O servidor está trocando protocolos.
+- [102](http://httpstatus.es/102) - **Processing** - O servidor recebeu e está processando a requisição.
+- [103](http://httpstatus.es/102) - **Processing** - O servidor recebeu e está processando a requisição.
+- [122](http://httpstatus.es/102) - **Request-uri too long** - A URI é maior do que o limite máximo de 2083 caracteres.
 
 ### Sucesso 2xx
-These codes indicate success. The body section if present is the object returned by the request. It is a MIME format object. It is in MIME format, and may only be in text/plain, text/html or one fo the formats specified as acceptable in the request.
+Estes códigos indicam sucesso. O corpo desta seção, caso exista, é o objeto retornado pela requisição. É um objeto no formato MIME. Ele está no formato MIME e e pode apenas estar nos formatos texto/plano, texto/html ou alguns dos formatos especificados como aceitáveis pela requisição.
 
-- [200](http://httpstatus.es/200) - **Ok** - The request was fulfilled.
-- [201](http://httpstatus.es/201) - **Created** - Following a POST command, this indicates success, but the textual part of the response line indicates the URI by which the newly created document should be known.
-- [202](http://httpstatus.es/202) - **Accepted** - The request has been accepted for processing, but the processing has not been completed. The request may or may not eventually be acted upon, as it may be disallowed when processing actually takes place. there is no facility for status returns from asynchronous operations such as this.
-- [203](http://httpstatus.es/203) - **Partial Information** - When received in the response to a GET command, this indicates that the returned metainformation is not a definitive set of the object from a server with a copy of the object, but is from a private overlaid web. This may include annotation information about the object, for example.
-- [204](http://httpstatus.es/204) - **No Response** - Server has received the request but there is no information to send back, and the client should stay in the same document view. This is mainly to allow input for scripts without changing the document at the same time.
-- [205](http://httpstatus.es/205) - **Reset Content** - Request processed, no content returned, reset document view.
-- [206](http://httpstatus.es/206) - **Partial Content** - partial resource return due to request header.
-- [207](http://httpstatus.es/207) - **Multi-Status** - XML, can contain multiple separate responses.
-- [208](http://httpstatus.es/208) - **Already Reported** - results previously returned.
-- [226](http://httpstatus.es/226) - **Im Used** - request fulfilled, reponse is instance-manipulations.
+- [200](http://httpstatus.es/200) - **Ok** - A requisição foi cumprida.
+- [201](http://httpstatus.es/201) - **Created** - Após um comando POST, isto indica um sucesso mas a parte textual da linha da resposta indica a URI pelo qual o documento novo criado deve ser conhecido.
+- [202](http://httpstatus.es/202) - **Accepted** - A requisição foi aceita para processameto mas o processamento não foi completado. A requisição pode, ou não, eventualmente ser aceita a medida que pode ser desabilitada quando o processo tiver sido iniciado. Não há instalação para retornos de status a partir de operações assíncronas como essa.
+- [203](http://httpstatus.es/203) - **Partial Information** - Quando recebido a partir de um response de um comando GET, isto indica que a meta-informação não é um conjunto definitivo de objetos de um servidor com uma cópia do objeto mas de  this indicates that the returned metainformation is not a definitive set of the object from a server with a copy of the object, mas a sobreposição de uma web privada. Ele pode estar incluso em uma informação de anotação sobre o objeto por exemplo.
+- [204](http://httpstatus.es/204) - **No Response** - O servidor recebeu a requisição mas não há informação para ser enviada de volta e o cliente deve permanecer na mesma visão de documento. Isto é basicamente para permitir a entrada de scripts sem a mudança do documento simultaneamente.
+- [205](http://httpstatus.es/205) - **Reset Content** - A requisição foi processada, nenhum conteúdo retornado, resete a visão do documento.
+- [206](http://httpstatus.es/206) - **Partial Content** - retorno parcial do resource devido ao cabeçalho da solicitação.
+- [207](http://httpstatus.es/207) - **Multi-Status** - O XML, pode conter múltiplas e separadas respostas.
+- [208](http://httpstatus.es/208) - **Already Reported** - resultados anteriormente retornados.
+- [226](http://httpstatus.es/226) - **Im Used** - pedido cumprido, a resposta é manipulação de instâncias.
 
 ### Redirecionamento 3xx
 The codes in this section indicate action to be taken (normally automatically) by the client in order to fulfill the request.
