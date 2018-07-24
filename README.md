@@ -1,22 +1,22 @@
-# Http Status Codes 
+# Códigos de Status Http 
 
-> Useful informations about each kind of http code
+> Informações úteis sobre cada tipo do código http
 
-*Inspired by the awesome lists*
+*Inspirados por awesome lists*
 
 
-## List of codes
+## Lista de Códigos
 
-The list is separated by kind.
+A lista é separada por tipo.
 
-### Informational 1xx
+### Informativo 1xx
 - [100](http://httpstatus.es/100) - **Continue** - Client should continue with request.
 - [101](http://httpstatus.es/101) - **Switching Protocols** - Server is switching protocols.
 - [102](http://httpstatus.es/102) - **Processing** - Server has received and is processing the request.
 - [103](http://httpstatus.es/102) - **Processing** - Server has received and is processing the request.
 - [122](http://httpstatus.es/102) - **Request-uri too long** - URI is longer than a maximum of 2083 characters.
 
-### Success 2xx
+### Sucesso 2xx
 These codes indicate success. The body section if present is the object returned by the request. It is a MIME format object. It is in MIME format, and may only be in text/plain, text/html or one fo the formats specified as acceptable in the request.
 
 - [200](http://httpstatus.es/200) - **Ok** - The request was fulfilled.
@@ -30,7 +30,7 @@ These codes indicate success. The body section if present is the object returned
 - [208](http://httpstatus.es/208) - **Already Reported** - results previously returned.
 - [226](http://httpstatus.es/226) - **Im Used** - request fulfilled, reponse is instance-manipulations.
 
-### Redirection 3xx
+### Redirecionamento 3xx
 The codes in this section indicate action to be taken (normally automatically) by the client in order to fulfill the request.
 
 - [301](http://httpstatus.es/301) - **Moved** - The data requested has been assigned a new URI, the change is permanent. (N.B. this is an optimisation, which must, pragmatically, be included in this definition. Browsers with link editing capabiliy should automatically relink to the new reference, where possible)
@@ -42,7 +42,7 @@ The codes in this section indicate action to be taken (normally automatically) b
 - [307](http://httpstatus.es/307) - **Temporary Redirect** - Connect again to different URI as provided.
 - [308](http://httpstatus.es/308) - **Permanent Redirect** - Connect again to a different URI using the same method.
 
-### Client side errors 4xx
+### Erros do lado do cliente 4xx
 The 4xx codes are intended for cases in which the client seems to have erred, and the 5xx codes for the cases in which the server is aware that the server has erred. It is impossible to distinguish these cases in general, so the difference is only informational.
 
 The body section may contain a document describing the error in human readable form. The document is in MIME format, and may only be in text/plain, text/html or one for the formats specified as acceptable in the request.
@@ -81,7 +81,7 @@ The body section may contain a document describing the error in human readable f
 - [451](http://httpstatus.es/451) - **Wrong Exchange Server** - The server cannot reach the client's mailbox.
 - [499](http://httpstatus.es/499) - **Client Closed Request** - Connection closed by client while HTTP server is processing.
 
-### Server side error 5xx
+### Erros do lado do servidor 5xx
 This means that even though the request appeared to be valid something went wrong at the server level and it wasn’t able to return anything.
 
 - [500](http://httpstatus.es/500) - **Internal Error** - The server encountered an unexpected condition which prevented it from fulfilling the request.
@@ -100,11 +100,11 @@ This means that even though the request appeared to be valid something went wron
 - [599](http://httpstatus.es/599) - **Network Connect Timeout Error** - Network connect timeout behind the proxy.
 
 
-## Contribute
+## Contribua
 
-Contributions welcome! Read the [contribution guidelines](contributing.md) first.
+Contribuições são bem vindas! Leia [orientações de contribuições](contributing.md) first.
 
 
-## License
+## Licensa
 
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
