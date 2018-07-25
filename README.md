@@ -32,9 +32,9 @@ Estes códigos indicam sucesso. O corpo desta seção, caso exista, é o objeto 
 - [226](http://httpstatus.es/226) - **Im Used** - pedido cumprido, a resposta é manipulação de instâncias.
 
 ### Redirecionamento 3xx
-The codes in this section indicate action to be taken (normally automatically) by the client in order to fulfill the request.
+Os códigos nesta seção indicam uma ação a ser tomada (normalmente automatizada) pelo cliente afim de cumprir a requisição.
 
-- [301](http://httpstatus.es/301) - **Moved** - The data requested has been assigned a new URI, the change is permanent. (N.B. this is an optimisation, which must, pragmatically, be included in this definition. Browsers with link editing capabiliy should automatically relink to the new reference, where possible)
+- [301](http://httpstatus.es/301) - **Moved** - O dado solicitado foi atribuido a uma nova URI, a mudança é permanente. (tome nota: esta é uma otimização, que deve, pragmaticamente, ser incluída nesta definição. Browsers com a capacidade de edição de link deve automaticamente relincar a nova referência, quando possível)
 - [302](http://httpstatus.es/302) - **Found** - The data requested actually resides under a different URL, however, the redirection may be altered on occasion (when making links to these kinds of document, the browser should default to using the Udi of the redirection document, but have the option of linking to the final document) as for "Forward".
 - [303](http://httpstatus.es/303) - **Method** - Like the found response, this suggests that the client go try another network address. In this case, a different method may be used too, rather than GET.
 - [304](http://httpstatus.es/304) - **Not Modified** - If the client has done a conditional GET and access is allowed, but the document has not been modified since the date and time specified in If-Modified-Since field, the server responds with a 304 status code and does not send the document body to the client.
@@ -106,6 +106,6 @@ This means that even though the request appeared to be valid something went wron
 Contribuições são bem vindas! Leia [orientações de contribuições](contributing.md) first.
 
 
-## Licensa
+## Licença
 
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
