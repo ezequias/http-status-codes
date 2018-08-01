@@ -100,6 +100,8 @@ This means that even though the request appeared to be valid something went wron
 - [598](http://httpstatus.es/598) - **Network Read Timeout Error** - Network read timeout behind the proxy.
 - [599](http://httpstatus.es/599) - **Network Connect Timeout Error** - Network connect timeout behind the proxy.
 
+## Referência
+[Referência RFC](https://www.rfc-editor.org/info/rfc7231)
 
 ## Contribua
 
